@@ -238,3 +238,6 @@ egrep "word1|word2" *.c
 - The "-" is necessary to have pdftotext output to stdout, not to files. 
 - The --with-filename and --label= options will put the file name in the output of grep. - The optional --color flag is nice and tells grep to output using colors on the terminal.
 
+## Check size of directory
+du -sh <directory_path>
+
