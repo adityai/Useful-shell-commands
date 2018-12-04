@@ -29,6 +29,11 @@ or
 
 ```find dir/ -type f -exec grep -H 'string' {} +```
 
+## Grep a string in a directory and sub directories with folder exclusions
+
+```grep -R --exclude-dir="test_exclude" 'string' dir/```
+
+
 ## Find and replace all occurrences of a string in a directory and sub directories
 
 ```find ./ -type f -exec sed -i -e 's/apple/orange/g' {} \;```
