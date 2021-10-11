@@ -29,6 +29,9 @@ or
 
 ```find dir/ -type f -exec grep -H 'string' {} +```
 
+## Grep list of all binary files in a directory
+```grep -rIL .```
+
 ## Grep a string in a directory and sub directories with folder exclusions
 
 ```grep -R --exclude-dir="test_exclude" 'string' dir/```
