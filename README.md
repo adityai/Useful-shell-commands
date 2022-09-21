@@ -36,6 +36,8 @@ or
 
 ```grep -R --exclude-dir="test_exclude" 'string' dir/```
 
+## Find all xml files with a regex pattern match in a directory and sub directories
+```find . -type f -name "*.xml" | xargs grep "<pattern>"```
 
 ## Find and replace all occurrences of a string in a directory and sub directories
 
